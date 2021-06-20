@@ -127,6 +127,9 @@ def k_means_with_text_data():
 
     k = 25
     visualize_document_clusters(wiki, tf_idf, all_centroids[k], all_cluster_assignment[k], k, words, display_docs=0)
+    
+    k=100
+	visualize_document_clusters(wiki, tf_idf, all_centroids[k], all_cluster_assignment[k], k, words, display_docs=0)
 
 
 
